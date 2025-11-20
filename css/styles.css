@@ -350,7 +350,27 @@ img {
     grid-template-columns: 1fr;
     grid-auto-rows: 220px;
   }
+
+  .contact-instagram {
+  margin-top: 60px; /* separación grande */
+  text-align: left;
 }
+
+.contact-insta-link {
+  font-family: Impact, "Arial Black", sans-serif;  /* misma fuente que ELENA SORIANO */
+  font-size: 28px;                                 /* tamaño grande */
+  font-weight: 900;
+  color: #d80000;                                   /* rojo del logo */
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact-insta-link:hover {
+  opacity: 0.8;
+}
+}
+
 
 
 
