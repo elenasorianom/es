@@ -354,8 +354,8 @@ img {
 .site-footer {
   width: 100%;
   text-align: center;
-  padding: 40px 0 20px;
-  margin-top: 80px;
+  padding: 40px 0 5px;
+  margin-top: 180px;
 }
 
 .site-footer p {
@@ -364,10 +364,11 @@ img {
   font-size: 13px;          /* mismo tamaño que el menú */
   letter-spacing: 0.16em;   /* misma separación que el menú */
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 200;
   color: #d80000;           /* mismo rojo que ELENA SORIANO */
 }
 }
+
 
 
 
