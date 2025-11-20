@@ -42,7 +42,7 @@ img {
 .logo {
   font-family: Impact, "Arial Black", sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   color: #d80000;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -330,7 +330,7 @@ img {
 .contact-insta-link {
   font-family: Impact, "Arial Black", sans-serif;  /* misma fuente que ELENA SORIANO */
   font-size: 18px;                                 /* tamaño grande */
-  font-weight: 900;
+  font-weight: 500;
   color: #d80000;                                  /* rojo del logo */
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -368,6 +368,7 @@ img {
   color: #d80000;           /* mismo rojo que ELENA SORIANO */
 }
 }
+
 
 
 
