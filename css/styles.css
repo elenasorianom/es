@@ -350,9 +350,10 @@ img {
     grid-template-columns: 1fr;
     grid-auto-rows: 220px;
   }
-
-  .contact-instagram {
-  margin-top: 60px; /* separación grande */
+}
+/* @socarreret al final del contact */
+.contact-instagram {
+  margin-top: 60px;      /* separación grande */
   text-align: left;
 }
 
@@ -360,8 +361,8 @@ img {
   font-family: Impact, "Arial Black", sans-serif;  /* misma fuente que ELENA SORIANO */
   font-size: 28px;                                 /* tamaño grande */
   font-weight: 900;
-  color: #d80000;                                   /* rojo del logo */
-  letter-spacing: 0.04em;
+  color: #d80000;                                  /* rojo del logo */
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -369,11 +370,19 @@ img {
 .contact-insta-link:hover {
   opacity: 0.8;
 }
+.contact-links {
+  margin-top: 14px;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;      /* negrita */
+  font-style: italic;    /* cursiva */
+}
 
-  .contact-links {
-  font-weight: 700;       /* 🔥 NEGRITA */
+  
 }
-}
+
 
 
 
