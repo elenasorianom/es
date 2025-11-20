@@ -329,7 +329,7 @@ img {
 
 .contact-insta-link {
   font-family: Impact, "Arial Black", sans-serif;  /* misma fuente que ELENA SORIANO */
-  font-size: 28px;                                 /* tamaño grande */
+  font-size: 18px;                                 /* tamaño grande */
   font-weight: 900;
   color: #d80000;                                  /* rojo del logo */
   letter-spacing: 0.06em;
@@ -350,23 +350,25 @@ img {
   font-style: italic;    /* cursiva */
 }
 
-  /* FOOTER */
+ /* FOOTER con la misma tipografía que el menú, pero en rojo */
 .site-footer {
   width: 100%;
   text-align: center;
   padding: 40px 0 20px;
-  color: #000;
-  font-size: 14px;
-  letter-spacing: 0.05em;
   margin-top: 80px;
 }
 
 .site-footer p {
   margin: 0;
-  font-weight: 600;
-  text-transform: uppercase;   /* TODO EN MAYÚSCULAS */
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;          /* mismo tamaño que el menú */
+  letter-spacing: 0.16em;   /* misma separación que el menú */
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d80000;           /* mismo rojo que ELENA SORIANO */
 }
 }
+
 
 
 
