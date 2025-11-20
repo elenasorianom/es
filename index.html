@@ -43,24 +43,14 @@
   </header>
 
   <main class="page home">
-    <!-- SLIDER DE PORTADA -->
-    <section class="hero">
-      <div class="hero-slider">
-        <div class="slide active">
-          <img src="img/home1.jpg" alt="Foto portada 1">
-        </div>
-
-        <div class="slide">
-          <img src="img/home2.jpg" alt="Foto portada 2">
-        </div>
-
-        <div class="slide">
-          <img src="img/home3.jpg" alt="Foto portada 3">
-        </div>
-        <!-- Si subes más fotos, puedes añadir más bloques .slide aquí -->
-      </div>
-    </section>
-  </main>
+  <!-- SLIDER DE PORTADA AUTOMÁTICO -->
+  <section class="hero">
+    <div class="hero-slider"
+         data-prefix="home"
+         data-count="3">
+    </div>
+  </section>
+</main>
 
   <!-- Lightbox (por si lo usas en otras páginas) -->
   <div class="lightbox-overlay" id="lightbox">
@@ -76,6 +66,7 @@
 </footer>
 </body>
 </html>
+
 
 
 
