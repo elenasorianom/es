@@ -62,9 +62,9 @@ img {
   font-weight: 700;
   color: #000;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;      /* antes 3px: sube el subrayado */
   letter-spacing: 0.04em;
-  margin-top: 2px;         /* microajuste para igualar la línea base */
+  margin-top: -2px;                /* 🔥 sube el texto 2px */
 }
 
 .insta:hover {
@@ -350,6 +350,7 @@ img {
     grid-auto-rows: 220px;
   }
 }
+
 
 
 
